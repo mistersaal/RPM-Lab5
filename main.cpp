@@ -1,3 +1,9 @@
+/**
+ * @author Сааль Степан
+ * @file main.cpp
+ * @brief Точка входа в программу
+ */
+
 #include <iostream>
 #include "array.h"
 #include <iomanip>
@@ -5,6 +11,10 @@
 
 using namespace std;
 
+/**
+ * @brief Точка входу в программу, получение вводимых данных
+ * @return
+ */
 int main() {
     int *Array = nullptr, sizeArray = 1000000, *DesiredArray = nullptr, sizeDesired = 40, maxValue = 6000000;
     bool showResult;
